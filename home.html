@@ -1,0 +1,2559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <title>News navbar</title>
+</head>
+
+  <body>
+    <div class="container">
+      <nav>
+        <div class="navbar-head">
+          <div class="search-box">
+            <div class="model-section d-flex">
+              <button type="button" class="btn menu-icon" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                id="modalButton">
+                <div class="troggle" id="troggle">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div><b>Menu</b>
+              </button>
+
+              <!--Start  Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl ">
+                  <div class="modal-content rounded-0">
+                    <div class="modal-head">
+                      <button type="button" class="btn-close ms-5 mt-2 fs-2" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                      <div class="link">
+                        <div class="subs-icon">
+                          <a href="#"><i class="fa-solid fa-envelope-open-text"></i><b>Subscribe</b></a>
+                        </div>
+                        <div class="singup-icon">
+                          <a href="#"><i class="fa-solid fa-user-plus ms-3"></i><b>Signup</b></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="wrapper">
+                      <div class="modal-body" id="modal">
+
+                        <ul>
+                          <li><a href="#">e-paper</a></li>
+                          <li><a href="#">Premium</a></li>
+                          <li><a href="#">India</a></li>
+                          <li><a href="#">Election 2024</a></li>
+                          <li><a href="#">Bollywood</a></li>
+                        </ul>
+
+                        <ul>
+                          <li><a href="#">Opinion</a></li>
+                          <li><a href="#">Political Pulse</a></li>
+                          <li><a href="#">Explained</a></li>
+                          <li><a href="#">Science</a></li>
+                          <li><a href="#">Cricket</a></li>
+                        </ul>
+
+                        <ul>
+                          <li><a href="#">Sports</a></li>
+                          <li><a href="#">World</a></li>
+                          <li><a href="#">Bussiness</a></li>
+                          <li><a href="#">Entertainment</a></li>
+                          <li><a href="#">Jobs</a></li>
+                        </ul>
+
+                        <ul>
+                          <li><a href="#">Health</a></li>
+                          <li><a href="#">Lifestyle</a></li>
+                          <li><a href="#">Technology</a></li>
+                          <li><a href="#">Education</a></li>
+                          <li><a href="#">Movie Review</a></li>
+                        </ul>
+
+                        <ul>
+                          <li><a href="#">Eye</a></li>
+                          <li><a href="#">Trending</a></li>
+                          <li><a href="#">Cities</a></li>
+                          <li><a href="#">Newspaper</a></li>
+                          <li><a href="#">WebSeries</a></li>
+                        </ul>
+
+                        <ul class="media">
+                          <li><a href="#">Photos</a></li>
+                          <li><a href="#">Videos</a></li>
+                          <li><a href="#">Audio</a></li>
+                          <li><a href="#">WebStories</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="menu-footer my-4">
+                      <ul>
+                        <li class="text-danger fs-5">
+                          <span>Tending</span>
+                        </li>
+                        <li><a href="#">UPSC Pack</a></li>
+                        <li><a href="#">Express Shorts</a></li>
+                        <li><a href="#">Mini Crossword</a></li>
+                        <li><a href="#">Premium</a></li>
+                        <li><a href="#">Podcast</a></li>
+                        <li><a href="#">Health $ Wellness</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--End  Modal -->
+
+              <!--Start Sidebar -->
+              <div class="sidebar-section">
+                <button type="button" class="btn menu-icon" id="modalButton1">
+                  <div class="troggle1" id="troggle1">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </button>
+
+                <div id="mySidebar" class="sidebar">
+                  <div class="logo2">
+                    <img src="https://dailybharat.org/wp-content/uploads/2024/07/GIF-FINAL-900x600-2-e1722495964750.gif"
+                      alt="Daily Bharat Logo">
+
+                    <a href="javascript:void(0)" class="closebtn" id="closeSidebar">&times;</a>
+                  </div>
+                  <ul>
+                    <li><a href="#">e-paper</a></li>
+                    <li><a href="#">Premium</a></li>
+                    <li><a href="#">India</a></li>
+                    <li><a href="#">Election 2024</a></li>
+                    <li><a href="#">Bollywood</a></li>
+                  </ul>
+
+                  <ul>
+                    <li><a href="#">Opinion</a></li>
+                    <li><a href="#">Political Pulse</a></li>
+                    <li><a href="#">Explained</a></li>
+                    <li><a href="#">Science</a></li>
+                    <li><a href="#">Cricket</a></li>
+                  </ul>
+
+                  <ul>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Entertainment</a></li>
+                    <li><a href="#">Jobs</a></li>
+                  </ul>
+
+                  <ul>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Movie Review</a></li>
+                  </ul>
+
+                  <ul>
+                    <li><a href="#">Eye</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Cities</a></li>
+                    <li><a href="#">Newspaper</a></li>
+                    <li><a href="#">WebSeries</a></li>
+                  </ul>
+
+                  <ul class="media">
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Audio</a></li>
+                    <li><a href="#">WebStories</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!--End Sidebar -->
+
+              <!-- start searchbar  -->
+              <div class="input-box ps-3">
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <!-- End searchbar  -->
+
+            <div class="logo-2 mb-5">
+              <img src="https://dailybharat.org/wp-content/uploads/2024/07/GIF-FINAL-900x600-2-e1722495964750.gif"
+                alt="Daily Bharat Logo">
+            </div>
+
+            <!-- Start language section  -->
+            <div class="language">
+              <ul class="ps-0">
+                <li><a href="#"> English </a></li>
+                <li><a href="#">हिंदी</a></li>
+                <li><a href="#">தமிழ்</a></li>
+                <li><a href="#">বাংলা</a></li>
+                <li><a href="#">മലയാളം</a></li>
+                <li><a href="#">ગુજરાતી</a></li>
+                <li><a href="#">मराठी </a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">बिज़नेस</a></li>
+              </ul>
+            </div>
+            <!-- End language section -->
+
+            <!--  start link section -->
+            <div class="link">
+              <div class="subs-icon">
+                <a href="#"><i class="fa-solid fa-envelope-open-text"></i><b>Subscribe</b></a>
+              </div>
+              <div class="singup-icon">
+                <a href="#"><i class="fa-solid fa-user-plus ms-3"></i><b>Signup</b></a>
+              </div>
+            </div>
+          </div>
+          <!-- End link section -->
+
+          <!-- Start country section -->
+          <div class="main-header">
+            <div class="country-select">
+              <div class="dropdown mb-3">
+                <label>EDITION</label>
+                <button class="btn ms-2 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <img src="image/flag.svg" alt="">INDIA
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#" data-value="INDIA">
+                      <img src="image/flag.svg" alt="India Flag">INDIA</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#" data-value="INTERNATIONAL">
+                      <img src="image/earth.svg" alt="International Icon">INTERNATIONAL</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="epaper-date">
+                <ul>
+                  <li class="line"><a href="#"><b>Friday, Sep 13, 2024</b></a></li>
+                  <li class="line"><a href="#">EPAPER</a></li>
+                  <li><a href="#">TODAY'S PAPER</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- End country section-->
+
+            <!-- Start logo section -->
+            <div class="logo">
+              <img src="https://dailybharat.org/wp-content/uploads/2024/07/GIF-FINAL-900x600-2-e1722495964750.gif"
+                alt="Daily Bharat Logo">
+            </div>
+            <!-- End logo section -->
+
+            <!-- Start social link-->
+            <div class="sub-link">
+              <div class="social-link d-flex me-5 mb-5">
+                <a href="#"><i class="fab fa-facebook-f fb-bg"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter tw-bg"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram ins-bg"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube yot-bg"></i></a>
+              </div>
+            </div>
+            <!-- End social link-->
+          </div>
+        </div>
+      </nav>
+
+      <!-- start main-nav section -->
+      <div class="main-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Bussiness</a></li>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">Science</a></li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Lifestyle</a></li>
+        </ul>
+      </div>
+      <!-- End main-nav section -->
+
+       <!-- Start Breaking news slider -->
+       <div class="news-ticker">
+        <div class="live-icon">
+         <img src="image/live.jpg" alt="">
+        </div>
+        <div>
+        <div class="d-flex">
+       <div class="fixed-section text-center pt-2">
+        BRAKING NEWS
+        </div>
+       <div class="scrolling-section">
+         <div class="scrolling-content">
+            BRAKING NEWS  |    BRAKING NEWS  |   BRAKING NEWS |   BRAKING NEWS
+         </div>
+       </div>
+      </div>
+        </div>
+      </div>
+         <!-- End Breaking news slider-->
+          <div class="adse-section px-5 mt-3">
+            <img src="https://tpc.googlesyndication.com/simgad/15693795535856838003?" alt="" class="w-100 h-50">
+          </div>
+
+      <div class="row mt-5 news-section">
+        <div class="col-md-2">
+          <div class="ads-section px-5 mt-3 sticky-top">
+            <img src="https://tpc.googlesyndication.com/simgad/17391754924864891433?" alt="" class="w-100">
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="card px-4">
+            <div class="top-news mt-2">
+              <div>
+                <h3>
+                  <a href="#">
+                    PM Modi called to know about Kharge's health, Congress President's health deteriorated during the rally</a>
+                </h3>
+                <p class="me-2">
+                  <a href="#">
+                    While Kharge was addressing the people during an election program in Jammu and Kashmir, his health deteriorated. However, after feeling a little bette criticized the Modi government. Now PM Modi called the Congress President and talked to him and enquired about his health.</a>
+                </p>
+              </div>
+              <div>
+                <img src="https://akm-img-a-in.tosshub.com/aajtak/images/story/202409/66f97b6240d39-modi-290801464-16x9.jpeg?" alt="" class="img-fluid" />
+              </div>
+            </div>
+
+            <div class="d-news mt-5">
+              <ul>
+                <li>
+                  <a href="#">Kejriwal names Atishi as new chief minister of
+                    DelhiKejriwal names Atishi as new chief minister of Delhi</a>
+                </li>
+                <li>
+                  <a href="#">Kejriwal names Atishi as new chief minister of
+                    DelhiKejriwal names Atishi as new chief minister of Delhi</a>
+                </li>
+                <li>
+                  <a href="#">Kejriwal names Atishi as new chief minister of
+                    DelhiKejriwal names Atishi as new chief minister of Delhi</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row mt-5 b-news">
+            <div class="col-md-4">
+              <h3>
+                SC rejects Bengal's plea to halt live streaming of Kolkata rape
+              </h3>
+
+              <img src="https://images.indianexpress.com/2024/09/convicts.jpg?" alt="Image" class="img-fluid" />
+              <div class="mt-4">
+                <p>
+                  Senior Advocate Kapil Sibal requested the Supreme Court to
+                  stop live streaming of the proceedings in the R G Kar Medical
+                  College and Hospital rape and murder case.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 mt-5">
+              <p>
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>Mamata govt moves out Kolkata top cop: Who is Vineet Goyal?
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>Mamata govt moves out Kolkata top cop: Who is Vineet Goyal?
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+            </div>
+
+            <div class="col-md-4 col-12 mt-5">
+              <p>
+                Kejriwal wants early elections to Delhi Assembly. What does the
+                law say?Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>
+                No demolition without our permission for 2 weeks: SC on
+                bulldozer justiceCongress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>
+                Kejriwal wants early elections to Delhi Assembly. What does the
+                law say?Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>
+                Asian Champions Trophy: How Jugraj Singh became unlikely hero inCongress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+            </div>
+          </div>
+
+          <div class="row mt-5 c-news">
+            <div class="col-md-4">
+              <h3>
+                How Cong turned itself around in Maharashtra, went from ‘third wheel’ to MVA lynchpin
+              </h3>
+
+              <img src="https://images.indianexpress.com/2024/09/loksabha-2024-09-29T133853.529.jpg?w=430" alt="Image" class="img-fluid" />
+              <div class="mt-4">
+                <p>
+                  Senior Advocate Kapil Sibal requested the Supreme Court to
+                  stop live streaming of the proceedings in the R G Kar Medical
+                  College and Hospital rape and murder case.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 mt-5">
+              <p>
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>Mamata govt moves out Kolkata top cop: Who is Vineet Goyal?
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>Mamata govt moves out Kolkata top cop: Who is Vineet Goyal?
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+                Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+            </div>
+
+            <div class="col-md-4 col-12 mt-5">
+              <p>
+                Kejriwal wants early elections to Delhi Assembly. What does the
+                law say?Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>
+                No demolition without our permission for 2 weeks: SC on
+                bulldozer justiceCongress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>
+                Kejriwal wants early elections to Delhi Assembly. What does the
+                law say?Congress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+              <hr>
+              <p>
+                Asian Champions Trophy: How Jugraj Singh became unlikely hero inCongress rattled because I participated in Ganesh Puja: PM Modi
+              </p>
+            </div>
+          </div>
+
+          <!-- /////////top News/////////// -->
+
+          <div class="topnews row mt-5">
+            <div class="col-md-8 ">
+              <div class="top-head d-flex">
+              <img src="image/arrow.svg" alt="" >
+               <h3 class="ms-3">  TOP NEWS </h3>
+              </div>
+              <div class="dotted-line"></div>
+              <div class="text-content d-flex mt-3">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <a href="#"><img
+                      src="https://images.indianexpress.com/2024/09/SANDEEP-DWIVEDI-COLUMN-ON-SHOHEI-OHTANI.jpg?w=210" /></a>
+                </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-6 col-sm-3 mt">
+                <div class="text mt-5">
+                  <div class="top-head d-flex">
+                    <img src="image/arrow.svg" alt="" >
+                     <h3 class="ms-3">  ENTERTAINMENT </h3>
+                    </div>
+                  <div class="dotted-line"></div>
+                </div>
+                <div class="parent-card">
+                  <div class="left-section">
+                    <div class="inner-card">
+                      <img src="https://images.indianexpress.com/2024/09/Gukesh.jpg?w=430" alt="Image 1" />
+                      <p>
+                        India's golden generation dazzles Chess Olympiad:
+                        'Magical...1983 moment'
+                      </p>
+                    </div>
+
+                    <!-- Nested Cards -->
+                    <div class="nested-cards mt-5">
+                      <div class="nested-card">
+                        <img src="https://images.indianexpress.com/2024/09/Vimal-Yoganathan-2.jpg?w=250"
+                          alt="Image 2" />
+                        <p>
+                          PV Sindhu brings in Anup Sridhar as coach for European
+                          swing, says her father Ramana
+                        </p>
+                      </div>
+
+                      <div class="nested-card">
+                        <img src="https://images.indianexpress.com/2024/08/SINDHU-LOSS-CROP-AP.jpg?w=250"
+                          alt="Image 3" />
+                        <p>
+                          Lack of South Asian representation in English football
+                          due to lack of ambition,
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Right Section: Text with Image -->
+                  <div class="right-section">
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Alia Bhatt makes stunning debut at Paris Fashion Week,
+                          see pics.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img
+                          src="https://images.indianexpress.com/2024/09/Alia-Bhatt-Andie-MacDowell-Paris-Fashion-Week-2024.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Karan says no one will allow Shah Rukh Khan to play
+                          'mellow characters'.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img
+                          src="https://images.indianexpress.com/2024/08/MixCollage-07-Aug-2024-12-26-PM-880.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Zeenat Aman reveals she got 'stoned' for real during
+                          Dum Maro Dum song
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img
+                          src="https://images.indianexpress.com/2024/09/MixCollage-24-Sep-2024-10-07-AM-3826.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Jury chairman Jahnu Barua on choosing Laapataa Ladies
+                          for the Oscars
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img
+                          src="https://images.indianexpress.com/2024/09/Jahnu-Barua-on-Laapataa-Ladies-being-Indias-official-submission-to-the-Oscars-2.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          India's official entry to the 97th Oscars is Kiran
+                          Rao's Laapataa Ladies
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/05/lapatta-ladies.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Why, even after 18 years, does Khosla Ka Ghosla
+                          continue to be relevant?
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/Khosla-Ka-Ghosla-1600.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-6 col-sm-3 mt">
+                <div class="text">
+                  <div class="top-head d-flex">
+                    <img src="image/arrow.svg" alt="" >
+                     <h3 class="ms-3"> DECISION 2024</h3>
+                    </div>
+                  <div class="dotted-line"></div>
+                </div>
+                <div class="parent-card">
+                  <div class="left-section">
+                    <div class="inner-card">
+                      <img src="https://images.indianexpress.com/2024/09/Gukesh.jpg?w=430" alt="Image 1" />
+                      <p>
+                        India's golden generation dazzles Chess Olympiad:
+                        'Magical...1983 moment'
+                      </p>
+                    </div>
+
+                    <!-- Nested Cards -->
+                    <div class="nested-cards">
+                      <div class="nested-card">
+                        <img src="https://images.indianexpress.com/2024/09/Vimal-Yoganathan-2.jpg?w=250"
+                          alt="Image 2" />
+                        <p>
+                          PV Sindhu brings in Anup Sridhar as coach for European
+                          swing, says her father Ramana
+                        </p>
+                      </div>
+
+                      <div class="nested-card">
+                        <img src="https://images.indianexpress.com/2024/08/SINDHU-LOSS-CROP-AP.jpg?w=250"
+                          alt="Image 3" />
+                        <p>
+                          Lack of South Asian representation in English football
+                          due to lack of ambition,
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Right Section: Text with Image -->
+                  <div class="right-section">
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Paralympians Avani Lekhara and Sumit Antil at Idea
+                          exchange.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/Idea-Exchange.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Paralympians Avani Lekhara and Sumit Antil at Idea
+                          exchange.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/Idea-Exchange.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Paralympians Avani Lekhara and Sumit Antil at Idea
+                          exchange.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/Idea-Exchange.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Paralympians Avani Lekhara and Sumit Antil at Idea
+                          exchange.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/Idea-Exchange.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Paralympians Avani Lekhara and Sumit Antil at Idea
+                          exchange.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/Idea-Exchange.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Paralympians Avani Lekhara and Sumit Antil at Idea
+                          exchange.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/Idea-Exchange.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-6 col-sm-3 mt">
+                <div class="text">
+                  <div class="top-head d-flex">
+                    <img src="image/arrow.svg" alt="" >
+                     <h3 class="ms-3"> BUSINESS </h3>
+                    </div>
+                  <div class="dotted-line"></div>
+                </div>
+                <div class="parent-card">
+                  <div class="left-section">
+                    <div class="inner-card">
+                      <img src="https://images.indianexpress.com/2024/09/textile.jpg?w=430" alt="Image 1" />
+                      <p>
+                        Sensex crosses 85,000 for the first time, Nifty at
+                        record high'
+                      </p>
+                    </div>
+
+                    <!-- Nested Cards -->
+                    <div class="nested-cards">
+                      <div class="nested-card">
+                        <img src="https://images.indianexpress.com/2024/09/share-market-2.jpg?w=210" alt="Image 2" />
+                        <p>
+                          Will push thermal till 2035 to meet power demand, then
+                          reverse for net zero:
+                        </p>
+                      </div>
+
+                      <div class="nested-card">
+                        <img src="https://images.indianexpress.com/2024/09/China-Flag.jpg?w=210" alt="Image 3" />
+                        <p>
+                          Sebi imposes Rs 1 crore fine on Anmol Ambani in
+                          Reliance Home Finance case,
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Right Section: Text with Image -->
+                  <div class="right-section">
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Nearly 93% of individual traders incurred losses.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/NSE.jpg?w=210" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          With Rs 3,000-crore fund raise, SpiceJet hopes to.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/SEC.jpg?w=210" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Home loans, credit cards witness sharp slowdown in
+                          origination volumes.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/Aviation.png?w=210" alt="" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Use urban solid waste for sustainable highways
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img
+                          src="https://images.indianexpress.com/2024/09/Untitled-design-2024-09-20T214006.699-1.jpg?w=210"
+                          alt="" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          PM Modi attends ‘fruitful roundtable’ with tech CEOs,
+                          highlights
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img
+                          src="https://images.indianexpress.com/2024/09/Untitled-design-2024-09-20T214006.699.jpg?w=210"
+                          alt="" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Information on incident involving EY employee Anna
+                          Perayil’s death sought
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/loksabha-2024-09-27T105930.792.jpg?w=210"
+                          alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-6 col-sm-3 mt">
+                <div class="m-citybox home-section">
+                  <div class="top-head d-flex">
+                    <img src="image/arrow.svg" alt="" >
+                     <h3 class="ms-3">CITY NEWS</h3>
+                    </div>
+                  <select class="selecttabs" aria-label="select city">
+                    <option value="Delhi" selected="selected">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Bangalore">Bangalore</option>
+                  </select>
+                </div>
+
+                <div class="parent-card">
+                  <div class="left-section">
+                    <div class="inner-card">
+                      <img src="https://images.indianexpress.com/2024/09/sensex-2-4sep.jpg?w=430" alt="Image 1" />
+                      <p>
+                        Sensex crosses 85,000 for the first time, Nifty at
+                        record high'
+                      </p>
+                    </div>
+
+                    <!-- Nested Cards -->
+                    <div class="nested-cards">
+                      <div class="nested-card">
+                        <img src="https://images.indianexpress.com/2024/09/Thermal.jpg?w=210" alt="Image 2" />
+                        <p>
+                          Will push thermal till 2035 to meet power demand, then
+                          reverse for net zero:
+                        </p>
+                      </div>
+
+                      <div class="nested-card">
+                        <img src="https://images.indianexpress.com/2024/09/ch923779.jpg?w=210" alt="Image 3" />
+                        <p>
+                          Sebi imposes Rs 1 crore fine on Anmol Ambani in
+                          Reliance Home Finance case,
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Right Section: Text with Image -->
+                  <div class="right-section">
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Nearly 93% of individual traders incurred losses.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=210" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          With Rs 3,000-crore fund raise, SpiceJet hopes to.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/spicejet_45dc2d.jpg?w=210" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Home loans, credit cards witness sharp slowdown .
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/CIBIL.jpg?w=210" alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Use urban solid waste for sustainable highways
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/National-ighways.png?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          PM Modi attends ‘fruitful roundtable’ with tech CEOs,
+                          highlights
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/PM-Modi-tech-meet.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Information on incident involving EY employee Anna
+                          Perayil’s death sought
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/anna.jpg?w=210" alt="Right Section Image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-6 col-sm-3 mt">
+                <div class="home-section">
+                  <div class="top-head d-flex">
+                    <img src="image/arrow.svg" alt="" >
+                     <h3 class="ms-3"> SPORTS</h3>
+                    </div>
+                  <div class="home-links">
+                    <ul>
+                      <li>
+                        <a href="https://indianexpress.com/section/sports/cricket/?ref=sports_hp" class="active"
+                          target="_blank" rel="sports">Cricket</a>
+                      </li>
+                      <li>
+                        <a href="https://indianexpress.com/section/sports/football/?ref=sports_hp" target="_blank"
+                          rel="sports">Football</a>
+                      </li>
+                      <li>
+                        <a href="https://indianexpress.com/section/sports/tennis/?ref=sports_hp" target="_blank"
+                          rel="sports">Tennis</a>
+                      </li>
+                      <li>
+                        <a href="https://indianexpress.com/picture-gallery-section/sports-gallery/?ref=sports_hp"
+                          target="_blank" rel="sports">Photos</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="parent-card">
+                  <div class="left-section">
+                    <div class="inner-card">
+                      <img src="https://images.indianexpress.com/2024/09/sensex-2-4sep.jpg?w=430" alt="Image 1" />
+                      <p>
+                        Sensex crosses 85,000 for the first time, Nifty at
+                        record high'
+                      </p>
+                    </div>
+
+                    <!-- Nested Cards -->
+                    <div class="nested-cards">
+                      <div class="nested-card">
+                        <img src="https://images.indianexpress.com/2024/09/Thermal.jpg?w=210" alt="Image 2" />
+                        <p>
+                          Will push thermal till 2035 to meet power demand, then
+                          reverse for net zero:
+                        </p>
+                      </div>
+
+                      <div class="nested-card">
+                        <img src="https://images.indianexpress.com/2024/09/ch923779.jpg?w=210" alt="Image 3" />
+                        <p>
+                          Sebi imposes Rs 1 crore fine on Anmol Ambani in
+                          Reliance Home Finance case,
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Right Section: Text with Image -->
+                  <div class="right-section">
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Nearly 93% of individual traders incurred losses.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=210" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          With Rs 3,000-crore fund raise, SpiceJet hopes to.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/spicejet_45dc2d.jpg?w=210" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Home loans, credit cards witness sharp slowdown in
+                          origination volumes.
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/CIBIL.jpg?w=210" alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Use urban solid waste for sustainable highways
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/National-ighways.png?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          PM Modi attends ‘fruitful roundtable’ with tech CEOs,
+                          highlights
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/PM-Modi-tech-meet.jpg?w=210"
+                          alt="Right Section Image" />
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Information on incident involving EY employee Anna
+                          Perayil’s death sought
+                        </p>
+                      </div>
+                      <div class="image-content">
+                        <img src="https://images.indianexpress.com/2024/09/anna.jpg?w=210" alt="Right Section Image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-6 col-sm-3 mt">
+                <div class="texta">
+                  <div class="top-head d-flex">
+                    <img src="image/arrow.svg" alt="" >
+                     <h3 class="ms-3">TECHNOLOGY</h3>
+                    </div>
+                  <div class="dotted-line"></div>
+                </div>
+                <div class="parent-card">
+                  <div class="left-section">
+                    <div class="inner-card">
+                      <img src="https://images.indianexpress.com/2024/09/apple-iphone-16-review.jpg?w=430"
+                        alt="Image 1" />
+                      <p>
+                        Apple iPhone 16 review: Perfecting the basics with a
+                        promise of more intelligence
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Right Section: Text with Image -->
+                  <div class="right-section">
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          iOS 18.1 makes call recording on iPhone a reality:
+                          Here is how it works.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Star Union Dai-Ichi Life, QuantumStreet AI to develop
+                          IBM watsonx-powered investment tools.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Telegram reverses stance on sharing user data with law
+                          enforcement agencies.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          MacBook Air M1 for Rs 49,999 on Amazon is probably one
+                          Mac deal that you should not miss
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-6 col-sm-3 mt">
+                <div class="texta">
+                  <div class="top-head d-flex">
+                    <img src="image/arrow.svg" alt="" >
+                     <h3 class="ms-3">TRENDING</h3>
+                    </div>
+                  <div class="dotted-line"></div>
+                </div>
+                <div class="parent-card">
+                  <div class="left-section">
+                    <div class="inner-card">
+                      <img src="https://images.indianexpress.com/2024/09/TikTok.jpg?w=430" alt="Image 1" />
+                      <p>
+                        TikTok to shut down music subscription service in
+                        November
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Right Section: Text with Image -->
+                  <div class="right-section">
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          iOS 18.1 makes call recording on iPhone a reality:
+                          Here is how it works.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Star Union Dai-Ichi Life, QuantumStreet AI to develop
+                          IBM watsonx-powered investment tools.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Telegram reverses stance on sharing user data with law
+                          enforcement agencies.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          MacBook Air M1 for Rs 49,999 on Amazon is probably one
+                          Mac deal that you should not miss
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-12 col-lg-12 col-md-6 col-sm-3 mt">
+                <div class="texta">
+                  <div class="top-head d-flex">
+                    <img src="image/arrow.svg" alt="" >
+                     <h3 class="ms-3">EDUCATION</h3>
+                    </div>
+                  <div class="dotted-line"></div>
+                </div>
+                <div class="parent-card">
+                  <div class="left-section">
+                    <div class="inner-card">
+                      <img src="https://images.indianexpress.com/2023/04/IIM-Ahemdabad.jpg?w=430" alt="Image 1" />
+                      <p>
+                        IIM-Ahmedabad to implement reservation in PhD admissions
+                        from 2025
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Right Section: Text with Image -->
+                  <div class="right-section">
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          ICAI CA Final exams postponed due to Diwali, check new
+                          dates.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          Schools closed: Holidays announced in Assam and Bihar
+                          schools.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          IIM-Sambalpur to introduce AI in classrooms as
+                          faculty.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="text-image-card">
+                      <div class="text-content">
+                        <p>
+                          NIT-Surathkal: A look at last 5 years NIRF rankings
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- /////////Right News/////////// -->
+
+            <div class="rightnews col-md-4 col-sm-2">
+              <div class="text">
+                <p>
+                  ADVERTISEMENT
+                  <img src="https://tpc.googlesyndication.com/simgad/10031704716354375886" alt="" class="img-fluid" />
+                </p>
+              </div>
+
+              <!-- Carousel -->
+              <div id="myCarousel" class="carousel slide" data-ride="carousel mt-5">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="https://images.indianexpress.com/2021/08/300_100-1.png" class="d-block w-100"
+                        alt="Slide 1" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://images.indianexpress.com/2021/08/Register-for-IBSAT-2024-Now-300x100-1.png"
+                        class="d-block w-100" alt="Slide 2" />
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="text mt-5">
+                <h3>TODAY’S EPAPER</h3>
+                <div class="dotted-line"></div>
+              </div>
+              <img src="https://images.indianexpress.com/2024/01/epaper-for-today-107.jpg" alt=""
+                class="img-fluid mt-3" />
+
+              <div class="text mt-5">
+                <p>
+                  ADVERTISEMENT
+                  <img src="https://tpc.googlesyndication.com/simgad/12982101272090059407" alt="" class="img-fluid" />
+                </p>
+              </div>
+
+              <div class="text mt-5">
+                <h3>EXPRESS VIEW</h3>
+                <div class="dotted-line"></div>
+                <!-- Carousel -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel ">
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://images.indianexpress.com/2021/08/300_100-1.png" class="d-block w-100"
+                          alt="Slide 1" />
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://images.indianexpress.com/2021/08/Register-for-IBSAT-2024-Now-300x100-1.png"
+                          class="d-block w-100" alt="Slide 2" />
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mobile-phone mt-5">
+                <div class="screen">
+                  <img
+                    src="https://indianexpress.com/wp-content/plugins/ie-express-shorts/assets/images/short-header.svg"
+                    alt="Image" class="image" />
+                  <div class="card3">
+                    <img src="https://images.indianexpress.com/2024/09/Himesh-Reshammiya.jpg?w=400" alt="Image"
+                      class="img-fluid" />
+                    <h3 class="text-p">
+                      Himesh Reshammiya’s father, music director Vipin
+                      Reshammiya passes away at 87.
+                    </h3>
+                    <p class="text-p">
+                      Music director Vipin Reshammiya, father of Himesh
+                      Reshammiya, passed away at the age of 87 in Mumbai due to
+                      breathing issues and age-related health problems. His
+                      close friend confirmed the news and shared
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mt-5">
+                <h6>BUSINESS AS USUAL</h6>
+                <img src="https://images.indianexpress.com/2014/02/700-cartoon-590.jpg" alt="Placeholder Image"
+                  class="img-fluid" />
+              </div>
+
+              <div class="dotted-line"></div>
+
+              <div class="text-content d-flex mt-5 mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="col text mt-5">
+                <h3>UPSC SPECIALS</h3>
+                <div class="dotted-line"></div>
+              </div>
+              <div class="textd mt-2">
+                <p>Kejriwal wants early elections to Delhi Assembly?</p>
+
+                <p>No demolition without our permission for 2 weeks:</p>
+
+                <p>Kejriwal wants early elections to Delhi Assembly?</p>
+
+                <p>
+                  Asian Champions Trophy: How Jugraj Singh became unlikely hero
+                </p>
+              </div>
+
+              <div class="col text mt-5">
+                <h3>TODAY’S CROSSWORD</h3>
+                <div class="dotted-line"></div>
+              </div>
+              <div class="imegap mt-3">
+                <img
+                  src="https://indianexpress.com/wp-content/plugins/ie-crossword-sudoku/assets/src/images/ie/crossword.gif"
+                  alt="" />
+              </div>
+
+              <div class="col text mt-5">
+                <h3>WORLD</h3>
+                <div class="dotted-line"></div>
+              </div>
+              <div class="text-content d-flex mt-5 mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="col text mt-5">
+                <h3>EXPRESS RESEARCH</h3>
+                <div class="dotted-line"></div>
+              </div>
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="col text mt-5">
+                <h3>NORTH EAST INDIA</h3>
+                <div class="dotted-line"></div>
+              </div>
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="col text mt-5">
+                <h3>PARENTING</h3>
+                <div class="dotted-line"></div>
+              </div>
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="col text mt-5">
+                <h3>PARENTING</h3>
+                <div class="dotted-line"></div>
+              </div>
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="col text mt-5">
+                <h3>Health Specials</h3>
+                <div class="dotted-line"></div>
+              </div>
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+
+              <div class="col text mt-5">
+                <h3>Science</h3>
+                <div class="dotted-line"></div>
+              </div>
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+              <div class="text-content d-flex mt-5">
+                <div>
+                  <p>
+                    Paralympians Avani Lekhara and Sumit Antil at Idea exchange.
+                  </p>
+                </div>
+                <div class="image-content">
+                  <img src="https://images.indianexpress.com/2024/09/Sebi_082579.jpg?w=200" />
+                </div>
+              </div>
+            </div>
+          </div>
+       
+        <div class="f-news ">
+          <h3><a href="#">NEWS</a> </h3>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4"
+            style="text-align: center; margin-bottom: 20px">
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">World news</h5>
+                <a href="#"> <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430"
+                      class="card-img-top" alt="..." /></a></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">US News</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">This is a short card.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">USA News</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">New york</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Entertainment</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Business</h5>
+                <img src="https://images.indianexpress.com/2024/09/sensex-1600_20240926043837.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">The Express</h5>
+                <img src="https://images.indianexpress.com/2024/09/nitish-naidu.jpg?w=430" class="card-img-top"
+                  alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Sports</h5>
+                <img src="https://images.indianexpress.com/2024/09/shakib-and-kohli.jpg?w=250" class="card-img-top"
+                  alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Audio</h5>
+                <img src="https://images.indianexpress.com/2024/06/arundhati_a2fabc.jpg?w=210" class="card-img-top"
+                  alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="f-news mt-5">
+          <h3><a href="#">OPINION</a></h3>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Opinion</h5>
+                <img src="https://images.indianexpress.com/2024/09/Sanjay-Raut.jpeg?w=430" class="card-img-top"
+                  alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">US News</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">This is a short card.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">US News</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">New york</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Entertainment</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="f-news mt-5">
+          <h3><a href="#">ARTS</a> </h3>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">OPINION</h5>
+                <img src="https://images.indianexpress.com/2024/09/Sanjay-Raut.jpeg?w=430" class="card-img-top"
+                  alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">US News</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">This is a short card.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">USA News</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">New york</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Entertainment</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Entertainment</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Travel</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Sports</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="f-news mt-5">
+          <h3><a href="#">LIVING</a> </h3>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Opinion</h5>
+                <img src="https://images.indianexpress.com/2024/09/Sanjay-Raut.jpeg?w=430" class="card-img-top"
+                  alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">US News</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">This is a short card.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">USA News</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">New york</h5>
+                <a href="#"><img src="https://images.indianexpress.com/2024/09/IPL-8.jpg?w=430" class="card-img-top"
+                    alt="..." /></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Sports</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Technology</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Entertainment</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Science</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Travel</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards h-100">
+                <h5 class="card-title">Style</h5>
+                <img src="https://images.indianexpress.com/2024/09/raj-kapoor-nargis-krishna-1.jpg?w=430"
+                  class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-2">
+          <div class="ads-section px-5 mt-3 sticky-top">
+            <img src="https://tpc.googlesyndication.com/simgad/17391754924864891433?" alt="" class="w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+     
+
+<!--start footer section -->
+    <footer class="footer-section mt-5">
+      <div class="container px-5">
+        <div class="row">
+          <div class="col-md-12 mt-5">
+            <form class="d-flex position-relative" action="#">
+              <input class="form-control p-3 fs-3" type="search" placeholder="Search" aria-label="Search">
+              <button class="position-absolute end-0 top-50 translate-middle-y me-3 border-0 bg-transparent">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="row line">
+          <div class="col-md-2 col-sm-6 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>World</h3>
+              </div>
+              <ul class="ps-0 ">
+                <li><a href="#">India</a></li>
+                <li><a href="#">Africa</a></li>
+                <li><a href="#">Austrila</a></li>
+                <li><a href="#">Asia</a></li>
+                <li><a href="#">China</a></li>
+                <li><a href="#">Europe</a></li>
+                <li><a href="#">United Kingdom</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-6 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>US Politics</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">SOOTUS</a></li>
+                <li><a href="#">Congress</a></li>
+                <li><a href="#">Facts First</a></li>
+                <li><a href="#">2024 Election</a></li>
+                <li><a href="#">B.J.P</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-6 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Business</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Tech</a></li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Calculators</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">Photos</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-6 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Markets</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Pre-Markets</a></li>
+                <li><a href="#">After-Hours</a></li>
+                <li><a href="#">Fear & Greed</a></li>
+                <li><a href="#">Investing</a></li>
+                <li><a href="#">Markets Now</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-6 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Health</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Life,But Better</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Sleep</a></li>
+                <li><a href="#">Relationships</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-6 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Tech</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Innovate</a></li>
+                <li><a href="#">Foressable Future</a></li>
+                <li><a href="#">Mission:Ahead</a></li>
+                <li><a href="#">Work Transformed</a></li>
+                <li><a href="#">Innovative Cities</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-6 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Style</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Arts</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">Luxury</a></li>
+                <li><a href="#">Beauty</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-6 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Travel</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Food $ Drink</a></li>
+                <li><a href="#">Stay</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Photos</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-3 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Sports</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Football</a></li>
+                <li><a href="#">Tennis</a></li>
+                <li><a href="#">Cricket</a></li>
+                <li><a href="#">Hockey</a></li>
+                <li><a href="#">Olympics</a></li>
+                <li><a href="#">Esports</a></li>
+                <li><a href="#">US Sports</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-3 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Watch</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Live TV</a></li>
+                <li><a href="#">CNN Fast</a></li>
+                <li><a href="#">Shows A-Z</a></li>
+                <li><a href="#">CNN10</a></li>
+                <li><a href="#">CNN Max</a></li>
+                <li><a href="#">CNN TV Schedules</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-3 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Listen</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">CNN 5 Things</a></li>
+                <li><a href="#">Comish</a></li>
+                <li><a href="#">One Thing</a></li>
+                <li><a href="#">Tug of War</a></li>
+                <li><a href="#">Cooper</a></li>
+                <li><a href="#">The Axe Files</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-3 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Science</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Space</a></li>
+                <li><a href="#">Life</a></li>
+                <li><a href="#">Austrila</a></li>
+                <li><a href="#">Unearthed</a></li>
+                <li><a href="#">Earth</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-3 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Features</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">As Equals</a></li>
+                <li><a href="#">Call to Earth</a></li>
+                <li><a href="#">Freedom Project</a></li>
+                <li><a href="#">Impact Your World</a></li>
+                <li><a href="#">Inside Africa</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-3 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Weather</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Video</a></li>
+                <li><a href="#">Climate</a></li>
+                <li><a href="#">Fear & Greed</a></li>
+                <li><a href="#">Investing</a></li>
+                <li><a href="#">Markets Now</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-3 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>War</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Ukraine-Russia war</a></li>
+                <li><a href="#">Israel-Hamas War</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-3 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>About</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Telivison</a></li>
+                <li><a href="#">Celebrity</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-3 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Climate</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Solution</a></li>
+                <li><a href="#">Weather</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-3 col-3">
+            <div class="footer-widget">
+              <div class="footer-heading">
+                <h3>Entertainment</h3>
+              </div>
+              <ul class="ps-0">
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Telivison</a></li>
+                <li><a href="#">Celebrity</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Start logo section -->
+        <div class="row line">
+          <div class="col-md-8 col-sm-12">
+            <div class="footer-logo mt-4">
+              <img src="https://dailybharat.org/wp-content/uploads/2024/07/GIF-FINAL-900x600-2-e1722495964750.gif"
+                alt="Daily Bharat Logo">
+              <ul class="ps-0 mt-4">
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Listen</a></li>
+                <li><a href="#">Live TV</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="footer-link">
+              <ul class="ps-0">
+                <li class="text-light">
+                  <span>Follow</span>
+                </li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li class="sign-in"><a href="#">Sign in</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- start Copyright section -->
+        <div class="copy-right">
+          <div class="row mt-4">
+            <div class="col-md-6 col-sm-12 col-12">
+              <div class="copyright-text">
+                <p>Copyright &copy; 2024, All Right Reserved <a href="#">Daily Bharat</a></p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12">
+              <ul>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Transport</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>
