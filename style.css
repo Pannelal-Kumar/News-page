@@ -888,7 +888,7 @@ p {
     }
 
     .sidebar .logo2 {
-        border-bottom: 2px dotted #979797;
+        border-bottom: 2px dashed #979797;
         padding-bottom: 1rem;
     }
 
