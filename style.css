@@ -9,6 +9,7 @@ html,
 body {
     font-size: 62.5%;
     font-family: 'Poppins' !important;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -527,8 +528,8 @@ p {
 }
 
 .top-head img {
-    height: 20px;
-    width: 30px;
+    height: 20rem;
+    width: 30rem;
 }
 
 .m-citybox {
